@@ -31,13 +31,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         tabBarController.viewControllers = [curiosityNavigationController, opportunityNavigationController, spiritNavigationController]
         
-        let item1 = UITabBarItem(title: "Curiosity", image: UIImage(named: "ico-home"), tag: 0)
+        let item1 = UITabBarItem(title: "Curiosity", image: UIImage(named: "curiosityImage"), tag: 0)
         curiosityNavigationController.tabBarItem = item1
         
-        let item2 = UITabBarItem(title: "Opportunity", image: UIImage(named: "ico-home"), tag: 0)
+        let item2 = UITabBarItem(title: "Opportunity", image: UIImage(named: "opportunityImage"), tag: 0)
         opportunityNavigationController.tabBarItem = item2
         
-        let item3 = UITabBarItem(title: "Spirit", image: UIImage(named: "ico-home"), tag: 0)
+        let item3 = UITabBarItem(title: "Spirit", image: UIImage(named: "spiritImage"), tag: 0)
         spiritNavigationController.tabBarItem = item3
         
         self.window?.rootViewController = tabBarController

@@ -100,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				B46BF44B254B162C00458532 /* VehicleInfo.swift */,
-				B46BF451254B1B0A00458532 /* PhotosRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +123,7 @@
 		B46BF447254B146A00458532 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				B46BF451254B1B0A00458532 /* PhotosRequest.swift */,
 				B46BF448254B14DF00458532 /* Result.swift */,
 			);
 			path = Network;
