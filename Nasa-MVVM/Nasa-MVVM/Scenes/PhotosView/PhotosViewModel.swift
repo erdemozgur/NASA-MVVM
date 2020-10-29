@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class PhotosViewModel: PhotosViewModelProtocol {
+final class PhotosViewModel: NSObject, PhotosViewModelProtocol {
     
     var delegate: PhotosViewModelDelegate?
     private var vehicleInfos = [VehicleInfo]()
@@ -27,10 +27,25 @@ final class PhotosViewModel: PhotosViewModelProtocol {
         }
     }
     
+    func load(with type: CameraType, vehicleName: RoverName) {
+        let photosRequets = PhotosRequest(vehicleName: vehicleName)
+        photosRequets.fetchAllPhotos { (result) in
+            
+            switch result {
+            case .success(let photos):
+                self.vehicleInfos = photos.photos.filter {$0.camera!.name! == type.rawValue}
+                self.notify(.showPhotos(self.vehicleInfos))
+            case .failure(let error):
+                print(error)
+            }
+        }
+
+    }
+    
     func selectPhoto(at index: Int) {
         let vehicle = vehicleInfos[index]
-        //TODO: - PhotosDetailViewModel, Delegate
-        
+        let viewModel = PhotosDetailViewModel(vehicleInfo: vehicle)
+        delegate?.navigate(to: .detail(viewModel))
         
     }
     

@@ -11,6 +11,7 @@ protocol PhotosViewModelProtocol {
     
     var delegate: PhotosViewModelDelegate? {get set}
     func load(vehicleName: RoverName)
+    func load(with type: CameraType, vehicleName: RoverName)
     func selectPhoto(at index: Int)
     
 }
@@ -20,7 +21,7 @@ enum PhotosViewModelOutput {
 }
 
 enum PhotosViewRoute {
-    case detail(String) // TODO: PhotosDetailViewModelProtocol
+    case detail(PhotosDetailViewModelProtocol)
 }
 
 protocol PhotosViewModelDelegate: class {

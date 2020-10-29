@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B46BF426254B0E2D00458532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF425254B0E2D00458532 /* AppDelegate.swift */; };
-		B46BF42A254B0E2D00458532 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF429254B0E2D00458532 /* PhotosViewController.swift */; };
+		B46BF42A254B0E2D00458532 /* CuriosityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF429254B0E2D00458532 /* CuriosityViewController.swift */; };
 		B46BF42D254B0E2D00458532 /* PhotosView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46BF42B254B0E2D00458532 /* PhotosView.storyboard */; };
 		B46BF42F254B0E3100458532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46BF42E254B0E3100458532 /* Assets.xcassets */; };
 		B46BF432254B0E3100458532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46BF430254B0E3100458532 /* LaunchScreen.storyboard */; };
@@ -17,12 +17,22 @@
 		B46BF449254B14DF00458532 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF448254B14DF00458532 /* Result.swift */; };
 		B46BF44C254B162C00458532 /* VehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF44B254B162C00458532 /* VehicleInfo.swift */; };
 		B46BF452254B1B0A00458532 /* PhotosRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF451254B1B0A00458532 /* PhotosRequest.swift */; };
+		B46BF455254B256400458532 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF454254B256400458532 /* UIImageView+Extensions.swift */; };
+		B46BF45B254B268C00458532 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF45A254B268C00458532 /* PhotosCollectionViewCell.swift */; };
+		B46BF45F254B311900458532 /* OpportunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF45E254B311900458532 /* OpportunityViewController.swift */; };
+		B46BF462254B312500458532 /* SpiritViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF461254B312500458532 /* SpiritViewController.swift */; };
+		B46BF467254B348F00458532 /* PhotosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF466254B348F00458532 /* PhotosDetailViewController.swift */; };
+		B46BF46B254B373700458532 /* PhotosDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF46A254B373700458532 /* PhotosDetailContracts.swift */; };
+		B46BF46F254B37DF00458532 /* PhotosDetailPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF46E254B37DF00458532 /* PhotosDetailPresentation.swift */; };
+		B46BF472254B396000458532 /* PhotosDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF471254B396000458532 /* PhotosDetailViewModel.swift */; };
+		B46BF475254B3CEC00458532 /* PhotosDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF474254B3CEC00458532 /* PhotosDetailBuilder.swift */; };
+		B46BF47B254B4AE900458532 /* UIAlert+EXTENSIONS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46BF47A254B4AE900458532 /* UIAlert+EXTENSIONS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B46BF422254B0E2D00458532 /* Nasa-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46BF425254B0E2D00458532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B46BF429254B0E2D00458532 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		B46BF429254B0E2D00458532 /* CuriosityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriosityViewController.swift; sourceTree = "<group>"; };
 		B46BF42C254B0E2D00458532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PhotosView.storyboard; sourceTree = "<group>"; };
 		B46BF42E254B0E3100458532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B46BF431254B0E3100458532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +42,16 @@
 		B46BF448254B14DF00458532 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		B46BF44B254B162C00458532 /* VehicleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfo.swift; sourceTree = "<group>"; };
 		B46BF451254B1B0A00458532 /* PhotosRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosRequest.swift; sourceTree = "<group>"; };
+		B46BF454254B256400458532 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		B46BF45A254B268C00458532 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		B46BF45E254B311900458532 /* OpportunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityViewController.swift; sourceTree = "<group>"; };
+		B46BF461254B312500458532 /* SpiritViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritViewController.swift; sourceTree = "<group>"; };
+		B46BF466254B348F00458532 /* PhotosDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDetailViewController.swift; sourceTree = "<group>"; };
+		B46BF46A254B373700458532 /* PhotosDetailContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDetailContracts.swift; sourceTree = "<group>"; };
+		B46BF46E254B37DF00458532 /* PhotosDetailPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDetailPresentation.swift; sourceTree = "<group>"; };
+		B46BF471254B396000458532 /* PhotosDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDetailViewModel.swift; sourceTree = "<group>"; };
+		B46BF474254B3CEC00458532 /* PhotosDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDetailBuilder.swift; sourceTree = "<group>"; };
+		B46BF47A254B4AE900458532 /* UIAlert+EXTENSIONS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlert+EXTENSIONS.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,7 @@
 				B46BF42E254B0E3100458532 /* Assets.xcassets */,
 				B46BF430254B0E3100458532 /* LaunchScreen.storyboard */,
 				B46BF433254B0E3100458532 /* Info.plist */,
+				B46BF457254B256A00458532 /* Extensions */,
 			);
 			path = "Nasa-MVVM";
 			sourceTree = "<group>";
@@ -112,11 +133,44 @@
 			isa = PBXGroup;
 			children = (
 				B46BF42B254B0E2D00458532 /* PhotosView.storyboard */,
-				B46BF429254B0E2D00458532 /* PhotosViewController.swift */,
 				B46BF440254B113A00458532 /* PhotosViewContracts.swift */,
 				B46BF443254B116800458532 /* PhotosViewModel.swift */,
+				B46BF45A254B268C00458532 /* PhotosCollectionViewCell.swift */,
+				B46BF464254B313500458532 /* ViewControllers */,
+				B46BF469254B36F800458532 /* PhotosDetail */,
 			);
 			path = PhotosView;
+			sourceTree = "<group>";
+		};
+		B46BF457254B256A00458532 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B46BF454254B256400458532 /* UIImageView+Extensions.swift */,
+				B46BF47A254B4AE900458532 /* UIAlert+EXTENSIONS.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B46BF464254B313500458532 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B46BF429254B0E2D00458532 /* CuriosityViewController.swift */,
+				B46BF45E254B311900458532 /* OpportunityViewController.swift */,
+				B46BF461254B312500458532 /* SpiritViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B46BF469254B36F800458532 /* PhotosDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B46BF466254B348F00458532 /* PhotosDetailViewController.swift */,
+				B46BF46A254B373700458532 /* PhotosDetailContracts.swift */,
+				B46BF46E254B37DF00458532 /* PhotosDetailPresentation.swift */,
+				B46BF471254B396000458532 /* PhotosDetailViewModel.swift */,
+				B46BF474254B3CEC00458532 /* PhotosDetailBuilder.swift */,
+			);
+			path = PhotosDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,12 +243,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46BF47B254B4AE900458532 /* UIAlert+EXTENSIONS.swift in Sources */,
 				B46BF44C254B162C00458532 /* VehicleInfo.swift in Sources */,
-				B46BF42A254B0E2D00458532 /* PhotosViewController.swift in Sources */,
+				B46BF42A254B0E2D00458532 /* CuriosityViewController.swift in Sources */,
+				B46BF45B254B268C00458532 /* PhotosCollectionViewCell.swift in Sources */,
+				B46BF462254B312500458532 /* SpiritViewController.swift in Sources */,
 				B46BF449254B14DF00458532 /* Result.swift in Sources */,
+				B46BF45F254B311900458532 /* OpportunityViewController.swift in Sources */,
+				B46BF455254B256400458532 /* UIImageView+Extensions.swift in Sources */,
 				B46BF444254B116800458532 /* PhotosViewModel.swift in Sources */,
+				B46BF467254B348F00458532 /* PhotosDetailViewController.swift in Sources */,
+				B46BF46F254B37DF00458532 /* PhotosDetailPresentation.swift in Sources */,
 				B46BF452254B1B0A00458532 /* PhotosRequest.swift in Sources */,
+				B46BF475254B3CEC00458532 /* PhotosDetailBuilder.swift in Sources */,
+				B46BF46B254B373700458532 /* PhotosDetailContracts.swift in Sources */,
 				B46BF426254B0E2D00458532 /* AppDelegate.swift in Sources */,
+				B46BF472254B396000458532 /* PhotosDetailViewModel.swift in Sources */,
 				B46BF441254B113A00458532 /* PhotosViewContracts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

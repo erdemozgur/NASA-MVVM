@@ -12,7 +12,7 @@ struct PhotosRequest {
     let resource: URL
     init(vehicleName: RoverName) {
         
-        let resourceString = "https://api.nasa.gov/mars-photos/api/v1/rovers/\(vehicleName.rawValue)/photos?sol=1000&api_key=mwJGIWgdh6hUuasoyjFezYKsDtSEemTcj8xelRKl"
+        let resourceString = "https://api.nasa.gov/mars-photos/api/v1/rovers/\(vehicleName.rawValue)/photos?sol=1000&api_key=mwJGIWgdh6hUuasoyjFezYKsDtSEemTcj8xelRKl&page=1"
         
         guard let resourceURL = URL(string: resourceString) else {
           fatalError()
